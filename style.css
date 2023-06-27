@@ -50,3 +50,55 @@ h2 {
     background-color: green;
     color: #f2f2f2;
 }
+.intro {
+    font-size: 40px;
+    text-align: center;
+}
+p {
+    color: lightyellow;
+}
+#step {
+    font-size: 30px;
+}
+form {
+    
+}
+.form {
+    background-color: yellowgreen;
+    border-radius: 25px;
+    font-size: 50px;
+    color: teal;
+}
+#firstname #lastname #email #phone {
+    
+}
+input {
+    width: 90%;
+    height: 60px;
+    color: darkgrey;
+    background-color: green;
+    font-size: 30px;
+}
+#formtext {
+    color: teal;
+    padding: 12px 0 0 14px;
+    
+}
+#bottom {
+    color: teal;
+    text-align: center;
+}
+button {
+    background-color: lightgreen;
+    width: 40%;
+    height: 90px;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    border: 3px solid darkgreen;
+    border-radius: 5px;
+    margin-left: 250px;
+}
+a {
+    color: teal;
+}
