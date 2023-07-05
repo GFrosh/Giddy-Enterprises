@@ -7,7 +7,7 @@
   </head>
   <body>
       <div class="container">
-          <img src="img1.jpg" class="item"/>
+          <img src="logo.jpg" class="item"/>
           <h2 class="item">GIDDY ENTERPRISES</h2>
       </div>
       <div class="topnav">
@@ -24,38 +24,39 @@
                   <p id="formtext">Sign up to get started</p>
               <fieldset class="">
                   <legend><span>FIRSTNAME: </span></legend>
-                  <input type="text" id="firstname"/>
+                  <input type="text" id="firstname" required/>
               </fieldset>
               <br>
               <fieldset class="">
                   <legend>LASTNAME: </legend>
-                  <input type="text" id="lastname"/>
+                  <input type="text" id="lastname" required/>
               </fieldset>
               <br>
               <fieldset class="">
                   <legend>EMAIL: </legend>
-                  <input type="email" id="email"/>
+                  <input type="email" id="email" required/>
               </fieldset>
               <br>
               <fieldset>
                   <legend>PHONE: </legend>
-                  <input type="tel" id="phone"/>
+                  <input type="tel" id="phone" required/>
               </fieldset>
               <br>
               <fieldset>
                   <legend>PASSWORD: </legend>
-                  <input type="password" id="password"/>
+                  <input type="password" id="password" required/>
               </fieldset>
               <br>
               <fieldset>
                   <legend>CONFIRM PASSWORD: </legend>
-                  <input type="password" id="password"/>
+                  <input type="password" id="password" required/>
               </fieldset>
               <br>
-              <button type="submit">Sign up</button>
+              <button type="submit" onclick="alert('Welcome to Giddy Enterprises')">Sign up</button>
               <p id="bottom">Already a member? | <a href="Log_in_page.html">Log in</a></p>
               </form>
           </div>
       </div>
+      <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
